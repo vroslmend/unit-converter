@@ -3,9 +3,29 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: #1C1C1C;
 }
 
 .main-container {
-    margin-top: 25vh;
+    background-color: #F4F4F4;
+    width: 550px;
+    height: 729px;
 }
 
+.top-container {
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+}
+
+.bottom-container {
+    background-color: #F4F4F4;
+    width: 550px;
+    height: 444px;
+}
+
+.card-container {
+    background-color: #FFFF;
+    width: 500px;
+    height: 108px;
+}
