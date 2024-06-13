@@ -117,18 +117,45 @@ button:active {
 }
 
 @media (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
 
     .card-container h2 {
         font-size: 1rem;
     }
 
+    .top-container {
+        width: 100%;
+    }
+
     .top-container h1 {
-        font-size: 1.25rem;
+        font-size: 1.125rem;
         font-weight: 800;
     }
 
-    .main-container {
+    .bottom-container {
+        width: 100%;
+    }    
+
+    .bottom-container p {
+        font-size: 0.75rem;
+    }    
+
+    .card-container {
         width: 90%;
+    }
+
+    .main-container {
+        width: 100%;
         padding: 0px;
         margin-right: auto;
         margin-left: auto;
